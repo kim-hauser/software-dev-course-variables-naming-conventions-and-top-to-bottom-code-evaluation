@@ -27,6 +27,8 @@ Things to reflect on:
 let buyer = "Alice";
 let itemQuantity = 5;
 let totalItemCost = 20;
-let totalSpend = buyer + " bought " + itemQuantity + " items for $" + totalItemCost + ".";
+let storeLocation = 'Walmart';
+let dayOfWeek = 'Thursday';
+let totalSpend = buyer + " bought " + itemQuantity + " items for $" + totalItemCost + " from " + storeLocation + " on " + dayOfWeek + ".";
 
 console.log(totalSpend);
